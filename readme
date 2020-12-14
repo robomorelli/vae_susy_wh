@@ -1,0 +1,11 @@
+cuts on bkg and signal (included syst):
+mbb [100-140]
+mct2 > 100
+mt > 50
+met > 220
+
+and additional cuts
+
+for systematics no additional cuts:
+
+during test further cuts to remove outlier (above 1000 for met ecc ecc)

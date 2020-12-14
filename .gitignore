@@ -1,0 +1,5 @@
+numpy_data/*
+model_results/*
+root_data/*
+splitted_numpy_bkg/*
+root_results/*
