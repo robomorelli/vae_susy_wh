@@ -45,7 +45,7 @@ train_vae(name_fold=name_fold, name_weights = name_weights, dictionary=component
 the editable parameters of the model start from intermediate dim (begin of second line).
 
 ### 031_multiple_model_summary: script to take a summary of the different train respect to a signal injection:
-# python 031_multiple_model_summary --analysis 'model_dependent'
+### python 031_multiple_model_summary --analysis 'model_dependent'
 
 ### 032_multiple_model_summary.ipynb: jupyter version (more stable, better way)
 
