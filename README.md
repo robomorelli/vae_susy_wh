@@ -1,13 +1,13 @@
 # vae_susy_wh
 
-# 010_root_to_numpy.py: convert root ntuples and and apply cuts selection on numpy data. How to run:
+### 010_root_to_numpy.py: convert root ntuples and and apply cuts selection on numpy data. How to run:
 -) python 010_root_to_numpy.py --type bkg --depth middle --clean_data True
 
 --type: "sig" or "bkg": convert the signals or the background data
 --depth: "preselection" or "middle"
 --clean_data: True or False
 
-# 011_merge_numpy.py: merge all the backroung numpy file splitted with 010 script:
+### 011_merge_numpy.py: merge all the backroung numpy file splitted with 010 script:
 -) 011_merge_numpy.py
 
 # 012_train_val_test_splitting.py: split in a reproducible way the data in train validation and test:
