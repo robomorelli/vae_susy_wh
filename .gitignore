@@ -3,3 +3,5 @@ model_results/*
 root_data/*
 splitted_numpy_bkg/*
 root_results/*
+dict_results/*
+
