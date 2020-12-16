@@ -793,7 +793,7 @@ if __name__ == "__main__":
     components_dict = {
 
         'met':5,
-        'mt':5,
+        'mt':10,
         'mct2':10,
 #         'mlb1':1,
 #         'lep1Pt':1,
@@ -811,7 +811,7 @@ if __name__ == "__main__":
         weights.append(v)
 
     selected_idx = [cols.index(component) for component in selected_components]
-    
+
     print(selected_idx)
 
     original_dim = 3
