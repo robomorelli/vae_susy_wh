@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+import os
+
 root_folder = 'root_data/'
 
 ray_model_results = 'model_results/ray_results/'
@@ -46,6 +48,9 @@ model_dep_results_boot = 'model_results/model_dependent/boot/'
 
 dict_results_exc_reg_mod = 'dictionary_results/exclusion_region/model_independent/'
 dict_results_exc_reg_mod_dep = 'dictionary_results/exclusion_region/model_dependent/'
+
+dict_results = 'dict_results/'
+json_results = 'json_results/'
 
 plot_results = 'plot_results/'
 
@@ -139,3 +144,10 @@ syst = ['JET_JER_EffectiveNP_1',
 'MET_SoftTrk_ResoPerp',
 'jvtWeightJET_JvtEfficiency',
 'pileupWeight']
+
+
+if not os.path.exists(dict_results):
+    os.makedirs(dict_results)
+
+if not os.path.exists(json_results):
+    os.makedirs(json_results)
